@@ -29,7 +29,7 @@ class hugeint
   void removeSpace();
   //returns true if obj > *this in absolute value
   bool isAbsBigger(const hugeint &obj);
-  //integer division/balance
+  //integer division/remainder
   hugeint divMod(const hugeint &obj, hugeint &reminder);
 public:
   hugeint();
