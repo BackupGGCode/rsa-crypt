@@ -1,6 +1,6 @@
 / * 
-* Hugeint - the class to work with a big integers.
-* Copyright(Ñ) 2011 Alexey Dolgopolov.  
+* hugeint - the class to work with a big integers.
+* Copyright(C) 2011 Alexey Dolgopolov.  
 *
 * The capacity of the number can be given as an argument
 * of the constructor(10 by default).
@@ -49,7 +49,7 @@ public:
   void random(unsigned int length);
   //returns true if this value is even
   bool even();
-  //Miller–Rabin primality test
+  //MillerÂ–Rabin primality test
   bool prime();
   hugeint getMaxDiviser(hugeint b);
   hugeint abs();
